@@ -1,0 +1,10 @@
+{
+    "url": "http://blog.abhi.se",
+    "description": "abhi's blog",
+    "author": {
+        "name": "abhi",
+        "email": "hi@abhi.se",
+        "twitter": "https://twitter.com/abivaturi"
+    },
+    "feedUrl": "/feed.xml"
+}

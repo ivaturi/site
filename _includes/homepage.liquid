@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="Description" content="{{ siteMeta.author.name }}" />
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
+  </head>
+  <body>
+    <div class="container">
+      
+      <!-- <h1> {{  title  }} </h1> -->
+
+      <ul class="nav">
+      {% for post in collections.posts %}
+        {% if post.data.sticky %}
+          <li class="nav-item">
+            <a href="{{ post.url }}">{{ post.data.title }}</a>
+          </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+
+      {{ content }}
+
+      <h2 class="category"></h2>
+      <ul class="posts">
+        {% for post in collections.posts reversed %}
+          {% unless post.data.publish contains "no" or post.data.visible contains "no" %}
+            <li class="post">
+              <span class="post-title">
+                {% if post.data.externalLink %}
+                <a href="{{ post.data.externalLink }}" target="__blank">{{ post.data.title }}</a>
+                {% else %}
+                <a href="{{ post.url }}">{{ post.data.title }}</a>
+                {% endif %}
+              </span>
+              <span class="post-date">
+                {{ post.date | date: '%b %Y' | downcase }}
+              </span>
+              {% if post.data.tags contains "booknotes" %}
+                <code class="tags">
+                  book notes
+                </code>
+              {% endif %}
+            </li>
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>

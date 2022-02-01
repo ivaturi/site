@@ -1,0 +1,45 @@
+@import "./common.scss";
+
+/*body {
+    text-transform: lowercase;
+}*/
+
+.category {
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.container {
+    p {
+        line-height: 22px;
+    }
+}
+
+.posts {
+    list-style: none;
+    .post {
+        margin-top: 16px;
+        line-height: 14px;
+        &-date {
+            font-size: 12px;
+            color: #585858;
+        }
+        .tags {
+            font-size: 80%;
+            background-color: saddlebrown;
+            color: white;
+            padding: 3px;
+            border-radius: 5%;
+        }
+    }
+}
+
+.name {
+    color: #253445;
+    font-size: large;
+    margin-bottom: 5px;
+}
+
+p {
+    margin: 8px 0;
+}
