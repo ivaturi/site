@@ -5,5 +5,7 @@ authors:
 rating: 3
 date: 2022-01
 excerpt: A short, quick read on demystifying the creative process.
-notes: no
 ---
+
+
+The obsession with studying creativity is a modern invention.
