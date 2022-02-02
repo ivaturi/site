@@ -16,14 +16,18 @@
 
 
       <header>
-        <h2>{{ title }}</h2>
+        <h3>Book notes from <em>{{ title }}</em></h3>
         <span class="post-date"> Read: {{date  | date: '%b %Y'}}</span>
       </header>
       
-      <div class="content">{{ content }}</div>
+      <div class="content">
+
+      {{ content }}
+      
+      </div>
 
       <div class="back-link">
-        <a href="/books"> ← all books </a> 
+        <a href="/books"> ← bookshelf </a> 
       </div>
     </div>
   </body>

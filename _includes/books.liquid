@@ -23,8 +23,8 @@
         {{ content }}
       </div>
 
-
-      <h2 class="category"></h2>
+      
+      <h3 class="category"></h3>
       <ul class="posts">
         {% for post in collections.books reversed %}
           {% unless post.data.publish contains "no" or post.data.visible contains "no" %}
@@ -37,17 +37,9 @@
                 {% endif %}
               </span>
               <span class="post-date">
-              read: 
               {{ post.date | date: '%b %Y' | downcase }}
-              
               </span>
               
-              <span class="rating">
-              rating: 
-                <script> 
-                  document.write("●".repeat({{post.data.rating}}))
-                </script>
-              </span>
               <p class="book-excerpt">
                 {% if post.data.excerpt %}
                 {{ post.data.excerpt }}
