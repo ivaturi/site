@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="description" content="{{ title }}" />
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="../../styles/blogpost.css" />
+    <link rel="stylesheet" href="../../styles/book.css" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
   </head>
   <body>
@@ -16,18 +16,24 @@
 
 
       <header>
+        <span class="post-date" style="float:right;"> {{date  | date: '%B %Y'}}</span> 
         <h3>Book notes from <em>{{ title }}</em></h3>
-        <span class="post-date"> Read: {{date  | date: '%b %Y'}}</span>
+        <span class="post-date">   
+          <script> document.write("●".repeat({{rating}}) + "○".repeat(5 - {{rating}}))</script> 
+        </span>
       </header>
       
-      <div class="content">
+      <div class="excerpt">
+        {{ excerpt }}
+      </div>
 
+      <div class="content">
+      <h3>My notes</h3>
       {{ content }}
-      
       </div>
 
       <div class="back-link">
-        <a href="/books"> ← bookshelf </a> 
+        <a href="/bookshelf"> ← bookshelf </a> 
       </div>
     </div>
   </body>
