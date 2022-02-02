@@ -39,7 +39,9 @@
               <span class="post-date">
                 {{ post.date | date: '%b %Y' | downcase }}
               </span>
-
+              <span class="rating">
+              <script> document.write("●".repeat({{post.data.rating}}))</script>
+              </span>
             </li>
           {% endunless %}
         {% endfor %}

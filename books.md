@@ -3,4 +3,4 @@ layout: books.liquid
 title: books
 ---
 
-Books I'm reading.
+Books I've read (from Jan 2022).
