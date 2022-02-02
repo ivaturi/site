@@ -3,4 +3,4 @@ layout: books.liquid
 title: books
 ---
 
-Wha
+Books I'm reading.
