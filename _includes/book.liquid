@@ -16,11 +16,13 @@
 
 
       <header>
-        <span class="post-date" style="float:right;"> {{date  | date: '%B %Y'}}</span> 
-        <h3>Book notes from <em>{{ title }}</em></h3>
+        <h3><em>{{ title }}</em> by {{ authors }}</h3>
+        <span class="post-date"> {{date  | date: '%b %Y'}}</span> 
+        <br>
         <span class="post-date">   
           <script> document.write("●".repeat({{rating}}) + "○".repeat(5 - {{rating}}))</script> 
         </span>
+
       </header>
       
       <div class="excerpt">
@@ -28,7 +30,7 @@
       </div>
 
       <div class="content">
-      <h3>My notes</h3>
+      <h4>My notes</h4>
       {{ content }}
       </div>
 

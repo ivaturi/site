@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    margin: 40px 32%;
+    margin: 40px 30%;
     blockquote {
         margin: 16px 0;
         padding: 0 1em;
@@ -34,17 +34,17 @@ body {
         border: none;
     }
     .top {
-        background-color: yellow;
-        padding: 5px;
+        text-transform: lowercase;
+        a {
+            color: maroon;
+            margin-right: 20px;
+        }
         ul {
             list-style-type: none;
             li {
                 display: inline;
                 padding: 0 25px 0 0;
             }
-        }
-        a {
-            text-decoration: underline;
         }
         margin-bottom: 25px;
     }
