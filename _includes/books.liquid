@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="{{ siteMeta.author.name }}" />
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="../styles/homepage.css" />
+    <link rel="stylesheet" href="../styles/books.css" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
   </head>
   <body>
@@ -37,11 +37,22 @@
                 {% endif %}
               </span>
               <span class="post-date">
-                {{ post.date | date: '%b %Y' | downcase }}
+              read: 
+              {{ post.date | date: '%b %Y' | downcase }}
+              
               </span>
+              
               <span class="rating">
-              <script> document.write("●".repeat({{post.data.rating}}))</script>
+              rating: 
+                <script> 
+                  document.write("●".repeat({{post.data.rating}}))
+                </script>
               </span>
+              <p class="book-excerpt">
+                {% if post.data.excerpt %}
+                {{ post.data.excerpt }}
+                {% endif %}
+              </p>
             </li>
           {% endunless %}
         {% endfor %}

@@ -1,0 +1,15 @@
+@import "./homepage.scss";
+.posts {
+    .post {
+        &-date {
+            font-size: 12px;
+            color: lightseagreen;
+        }
+    }
+}
+
+p.book-excerpt {
+    font-size: small;
+    padding-left: 20px;
+    font-style: italic;
+}

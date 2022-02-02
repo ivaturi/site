@@ -4,5 +4,6 @@ authors:
     - Scott Berkun
 rating: 3
 date: 2022-01
+excerpt: A short, quick read on demystifying the creative process.
 notes: no
 ---
