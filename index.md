@@ -1,6 +1,6 @@
 ---
 layout: homepage.liquid
-title: blog.abhi.se
+title: abhi's blog
 ---
 
-Hi, i am Abhi. This is my dump. There will be more here about me...eventually.
+Hi, I'm Abhi. Welcome to my dump. 

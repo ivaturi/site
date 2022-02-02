@@ -6,25 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="{{ siteMeta.author.name }}" />
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="../styles/homepage.css" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
   </head>
   <body>
     <div class="container">
       
       <!-- <h1> {{  title  }} </h1> -->
+      {% render 'nav.liquid'%}
 
-      <ul class="nav">
-      {% for post in collections.posts %}
-        {% if post.data.sticky %}
-          <li class="nav-item">
-            <a href="{{ post.url }}">{{ post.data.title }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-      </ul>
 
-      {{ content }}
+      
+      <!-- <h1> {{  title  }} </h1> -->
+
+      <div class="content">
+        {{ content }}
+      </div>
+
 
       <h2 class="category"></h2>
       <ul class="posts">
@@ -50,6 +48,5 @@
           {% endunless %}
         {% endfor %}
       </ul>
-    </div>
   </body>
 </html>

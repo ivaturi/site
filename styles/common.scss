@@ -33,6 +33,21 @@ body {
         height: 1px;
         border: none;
     }
+    .top {
+        background-color: yellow;
+        padding: 5px;
+        ul {
+            list-style-type: none;
+            li {
+                display: inline;
+                padding: 0 25px 0 0;
+            }
+        }
+        a {
+            text-decoration: underline;
+        }
+        margin-bottom: 25px;
+    }
 }
 
 a {

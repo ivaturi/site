@@ -11,14 +11,15 @@
   </head>
   <body>
     <div class="container post-container">
+      
+      {% render 'nav.liquid'%}
+
+
       <header>
         <h1>{{ title }}</h1>
         <span class="post-date"> {{date  | date: '%d %b %Y'}}</span>
       </header>
       <div class="content">{{ content }}</div>
-      <div class="back-link">
-        <a href="/">← home</a>
-      </div>
     </div>
   </body>
 </html>
