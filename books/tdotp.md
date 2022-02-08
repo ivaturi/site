@@ -1,10 +1,10 @@
 ---
 title: The dance of the possible
+fulltitle: The Dance of The Possible - A mostly honest and completely irreverent guide to creativity
 authors:
     - Scott Berkun
 rating: 3
 date: 2022-01
-excerpt: A short, quick read on demystifying the creative process.
 ---
 
 
