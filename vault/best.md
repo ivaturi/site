@@ -1,7 +1,8 @@
 ---
 date: 2021-02-01
 title: Do what you're relatively best at
-tags:
+layout: blogpost.liquid
+tags: 
     - posts
 ---
 

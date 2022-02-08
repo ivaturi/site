@@ -1,7 +1,8 @@
 ---
 date: 2021-03-22
 title: Shoveling away debt
-tags:
+layout: blogpost.liquid
+tags: 
     - posts
 ---
 

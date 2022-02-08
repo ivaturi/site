@@ -5,6 +5,9 @@ authors:
     - Scott Berkun
 rating: 3
 date: 2022-01
+layout: book.liquid
+tags: 
+    - books
 ---
 
 

@@ -3,6 +3,9 @@ title: The psychology of money
 authors: Morgan Housel
 rating: 4
 date: 2020-11
+layout: book.liquid
+tags: 
+    - books
 ---
 
 Doing well with money has a little to do with how smart you are and a lot to do with how you behave. 

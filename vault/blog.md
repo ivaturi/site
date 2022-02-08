@@ -1,7 +1,8 @@
 ---
 date: 2022-01-05
 title: Self-hosting my opinions
-tags:
+layout: blogpost.liquid
+tags: 
     - posts
 ---
 

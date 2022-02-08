@@ -5,4 +5,7 @@ authors:
 date: 2022-01
 rating: 4
 notes: no
+layout: book.liquid
+tags: 
+    - books
 ---

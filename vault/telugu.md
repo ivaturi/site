@@ -1,7 +1,8 @@
 ---
 date: 2021-03-03
 title: A short rant on telugu movies
-tags:
+layout: blogpost.liquid
+tags: 
     - posts
 ---
 

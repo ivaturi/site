@@ -1,7 +1,8 @@
 ---
 title: On designing processes
 date: 2021-11-06
-tags:
+layout: blogpost.liquid
+tags: 
     - posts
 ---
 

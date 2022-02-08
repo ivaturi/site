@@ -5,4 +5,7 @@ authors:
     - Ursula K. Le Guin
 rating: 4
 notes: no
+layout: book.liquid
+tags: 
+    - books
 ---

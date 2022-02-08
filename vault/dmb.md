@@ -1,7 +1,8 @@
 ---
 date: 2021-11-05
 title: Don't marry your beliefs
-tags:
+layout: blogpost.liquid
+tags: 
     - posts
 ---
 
