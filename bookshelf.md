@@ -1,5 +1,5 @@
 ---
 layout: books.liquid
-title: books
+title: bookshelf
 tags: nav
 ---
