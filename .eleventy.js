@@ -8,6 +8,7 @@ module.exports = (eleventyConfig) => {
     eleventyConfig.addPlugin(syntaxHighlight);
     eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPassthroughCopy('assets/fonts');
+    eleventyConfig.addPassthroughCopy({ "favicon.ico": "" });
     const options = {
         html: true,
         breaks: true,
