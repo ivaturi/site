@@ -3,4 +3,4 @@
 
 Source for https://blog.abhi.se
 
-I'm using [Eleventy](https://www.11ty.dev/) to build from the markdown, and [Netlify](netlify.com) to deploy.
+I'm using [Eleventy](https://www.11ty.dev/) to build from the markdown (using [liquid](https://github.com/Shopify/liquid/wiki) templates), and [Netlify](netlify.com) to deploy.
