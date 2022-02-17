@@ -40,11 +40,6 @@
               {{ post.date | date: '%b %Y' | downcase }}
               </span>
               
-              <p class="book-excerpt">
-                {% if post.data.excerpt %}
-                {{ post.data.excerpt }}
-                {% endif %}
-              </p>
             </li>
           {% endunless %}
         {% endfor %}
