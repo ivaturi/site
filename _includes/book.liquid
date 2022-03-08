@@ -29,9 +29,15 @@
         {{ excerpt }}
       </div>
 
+
       <div class="content">
+
+      {% if status contains "reading" %}
+      I'm still reading this book...check back later for notes.
+      {% else %}
       <h4>My notes</h4>
       {{ content }}
+      {% endif%}
       </div>
 
       <div class="back-link">
