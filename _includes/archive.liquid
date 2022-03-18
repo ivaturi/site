@@ -6,24 +6,28 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <meta name="Description" content="{{ siteMeta.author.name }}" />
     <title>{{ title }}</title>
-    <link rel="stylesheet" href="./styles/homepage.css" />
+    <link rel="stylesheet" href="../styles/homepage.css" />
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
   </head>
   <body>
-    <div class="container home-container">
+    <div class="container">
       
-      <!-- <h2> {{  title  }} </h2> -->
+      <!-- <h1> {{  title  }} </h1> -->
+      {% render 'nav.liquid'%}
 
       <div class="content">
         {{ content }}
       </div>
 
-      <h3 class="category">Recent</h3>
+      <h2 class="category"></h2>
       <ul class="posts">
-        {% assign latest_posts = collections.posts | reverse | slice: 0,3  %}
-        {% for post in latest_posts %}
+        {% for post in collections.posts reversed %}
           {% unless post.data.publish contains "no" or post.data.visible contains "no" %}
             <li class="post">
+              <span class="post-date">
+                {{ post.date | date: '%Y-%m-%d' | downcase }}
+              </span>
+              &nbsp;
               <span class="post-title">
                 {% if post.data.draft %} DRAFT -  {% endif %}
                 <a href="{{ post.url }}">{{ post.data.title }}</a>
