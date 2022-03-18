@@ -10,16 +10,15 @@
     <link rel="alternate" href="/feed.xml" type="application/atom+xml" title="{{ siteMeta.author.name }}" />
   </head>
   <body>
-    <div class="container">
+    <div class="container home-container">
       
-      <!-- <h1> {{  title  }} </h1> -->
-      {% render 'nav.liquid'%}
+      <!-- <h2> {{  title  }} </h2> -->
 
       <div class="content">
         {{ content }}
       </div>
 
-      <h2 class="category"></h2>
+      <h3 class="category">Recent</h3>
       <ul class="posts">
         {% assign latest_posts = collections.posts | reverse | slice: 0,3  %}
         {% for post in latest_posts %}
