@@ -6,6 +6,6 @@ tags:
     - posts
 ---
 
-Collecting questions vs collecting answers.
+This is a wonderful comic about the value in collecting questions vs collecting answers.
 
-[A day at the park - a short comic](http://kiriakakis.net/comics/mused/a-day-at-the-park). 
+[A day at the park](http://kiriakakis.net/comics/mused/a-day-at-the-park). 
