@@ -5,11 +5,9 @@ layout: blogpost.liquid
 title: The first time
 ---
 
-We expect most things to work right the first time. On the face of it, this isn't the wrong way to go about things. We're not saying we _want_ things to work right, just that we expect them to. 
+We expect most things to work right the first time. On the face of it, this isn't the wrong way to go about things. We're not saying we _want_ things to work right, just that we expect them to. It's ok if it works wrong. 
 
-It's ok if it works _wrong_. 
-
-Except we never think it works wrong. We think if it didn't work _right_, it _didn't work_. It _failed_. 
+Except we never think it _works wrong_. We think if it didn't work right, it _didn't work_. It _failed_. 
 
 So what we're really saying when we expect things to work right the first time, is that we're okay with it failing. 
 
