@@ -20,7 +20,7 @@
 
       <h3 class="category">Recent</h3>
       <ul class="posts">
-        {% assign latest_posts = collections.posts | reverse | slice: 0,3  %}
+        {% assign latest_posts = collections.posts | reverse | slice: 0,5  %}
         {% for post in latest_posts %}
           {% unless post.data.publish contains "no" or post.data.visible contains "no" %}
             <li class="post">
