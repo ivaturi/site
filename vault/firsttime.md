@@ -21,7 +21,7 @@ Most often, we pick up the pieces and move on. Sometimes, we do a post-mortem. M
 
 Sometimes, we don't move on. We believe in our idea strongly enough that we go at it again. This time, we don't go about it the same way. We do some things differently. We reduce the scope, we de-prioritize the parts that are too risky - the ones we didn't foresee before. 
 
-How many times are we prepared to do this? Most high-risk ideas with great potential [at least 3 times](https://www.amazon.com/Loonshots-Nurture-Diseases-Transform-Industries/dp/1250185963) before they get anywhere. 
+How many times are we prepared to do this? Most high-risk ideas with great potential [die at least 3 times](https://www.amazon.com/Loonshots-Nurture-Diseases-Transform-Industries/dp/1250185963) before they get anywhere. 
 
 What if, instead of counting it to work the first time, we give it our best, but we go at it not as if we're solving a problem but as if this is our first attempt to _learn more_ about the problem? What if the post-mortem is the real goal of the exercise?
 
