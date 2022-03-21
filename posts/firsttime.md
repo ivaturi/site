@@ -27,7 +27,7 @@ What if, instead of counting it to work the first time, we give it our best, but
 
 When [Elon Musk says](https://www.youtube.com/watch?v=DxREm3s1scA),
 
-> Instead of putting landing legs on the booster and the ship, we're going to catch them with a tower, to save the weight of the langing legs. We're talking about catching the largest flying object ever made, on a giant tower with chopstick arms.
+> Instead of putting landing legs on the booster and the ship, we're going to catch them with a tower, to save the weight of the landing legs. We're talking about catching the largest flying object ever made, on a giant tower with chopstick arms.
 
 He's proposing to do something that has a huge payoff, but also something that can fail spectacularly. So how does he go about it?
 
