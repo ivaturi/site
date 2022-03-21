@@ -7,9 +7,7 @@ title: The first time
 
 We expect most things to work right the first time. On the face of it, this isn't the wrong way to go about things. We're not saying we _want_ things to work right, just that we expect them to. It's ok if they work wrong. 
 
-Except we never think they _works wron_. We think if something didn't work right, it _didn't work_. It _failed_. 
-
-So what we're really saying when we expect things to work right the first time, is that we're okay with them failing. 
+Except we never think they _work wrong_. We think if something didn't work right, it _didn't work_. It _failed_. So what we're really saying when we expect things to work right the first time, is that we're okay with them failing. 
 
 What happens when we're risking a lot on something that has huge potential, but can also fail spectacularly? We shift goalposts just a little. This time, we really hope it will work. We spend a lot _more_ time planning, we try to predict all the things that go wrong and try to make sure they don't, we expect weekly, daily updates on what's happening so we can keep up with every small thing that affects it. We micro-manage the _shit_ out of it. We think it's ok, because we're _counting_ on this one. 
 
