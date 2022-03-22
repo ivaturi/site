@@ -1,10 +1,10 @@
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 const markdownIt = require('markdown-it');
-// const pluginRss = require('@11ty/eleventy-plugin-rss');
+const pluginRss = require('@11ty/eleventy-plugin-rss');
 
 module.exports = (eleventyConfig) => {
     eleventyConfig.addPlugin(syntaxHighlight);
-    //eleventyConfig.addPlugin(pluginRss);
+    eleventyConfig.addPlugin(pluginRss);
     eleventyConfig.addPassthroughCopy('assets/fonts');
     eleventyConfig.addPassthroughCopy('favicon.ico');
     const options = {

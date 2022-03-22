@@ -10,4 +10,6 @@ I'm a docs manager at a clean energy startup. When I'm not working, I enjoy read
 
 I try to write about things I'm reading. Themes I've been reading about lately include _people, learning, building and growing teams, making decisions,_ and _first principles_. 
 
-Check out [the archive](/archive), or [books I'm reading](/bookshelf).
+Check out [the archive](/archive), or [books I'm reading](/bookshelf). There's also [an Atom/RSS feed](/feed.xml).
+
+If you want to get in touch, [send an email](mailto:hi@abhi.se).
