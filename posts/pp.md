@@ -5,7 +5,7 @@ authors: Gene Kim, Kevin Behr, George Spafford
 format: kindle
 date: 2022-05
 rating: 6
-brief: An okay novel, but a decent intro to DevOPs for the ignorant. A good read before diving into something deeper, like Accelerate.
+brief: An okay novel, but a decent intro to DevOps for the ignorant. A good read before diving into something deeper, like Accelerate.
 layout: book.liquid
 tags: 
     - books
