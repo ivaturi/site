@@ -22,28 +22,28 @@
       <div class="content">
         {{ content }}
       </div>
-
-      
+  
       <h3 class="category"></h3>
       <ul class="posts">
         {% for post in collections.books reversed %}
           {% unless post.data.publish contains "no" or post.data.visible contains "no" %}
             <li class="post">
+
               <span class="post-title">
-                {% if post.data.notes %}
                 {{ post.data.title }}
-                {% else %}
-                <a href="{{ post.url }}">{{ post.data.title }}</a>
-                {% endif %}
-                {% if post.data.status contains "reading" %}
-                <em>(reading)</em>
-                {% endif %}
-                
+                &nbsp;&nbsp;
               </span>
+
               <span class="post-date">
-              {{ post.date | date: '%b %Y' | downcase }}
+                {{ post.date | date: '%Y-%m' | downcase }}
               </span>
-              
+              &nbsp;&nbsp;
+
+              <br/>
+              <span class="book-excerpt">
+              {{ post.data.brief }}
+              </span>
+ 
             </li>
           {% endunless %}
         {% endfor %}
