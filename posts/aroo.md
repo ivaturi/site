@@ -8,5 +8,6 @@ layout: book.liquid
 tags: 
     - books
 notes: no
+brief: One of the most enlightening and entertaining essays I've read in a long time. A beautiful book that's worth revisiting often.
 ---
 
